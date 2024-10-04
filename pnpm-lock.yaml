@@ -96,8 +96,11 @@ importers:
       vite:
         specifier: ^5.1.0
         version: 5.4.8(@types/node@22.7.4)
+      vite-env-only:
+        specifier: ^3.0.3
+        version: 3.0.3(vite@5.4.8(@types/node@22.7.4))
       vite-tsconfig-paths:
-        specifier: ^4.2.1
+        specifier: ^4.3.2
         version: 4.3.2(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4))
 
 packages:
@@ -1074,6 +1077,9 @@ packages:
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
     engines: {node: '>= 0.4'}
+
+  babel-dead-code-elimination@1.0.6:
+    resolution: {integrity: sha512-JxFi9qyRJpN0LjEbbjbN8g0ux71Qppn9R8Qe3k6QzHg2CaKsbUQtbn307LQGiDLGjV6JCtEFqfxzVig9MyDCHQ==}
 
   bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
@@ -3367,6 +3373,11 @@ packages:
   vfile@5.3.7:
     resolution: {integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==}
 
+  vite-env-only@3.0.3:
+    resolution: {integrity: sha512-iAb7cTXRrvFShaF1n+G8f6Yqq7sRJcxipNYNQQu0DN5N9P55vJMmLG5lNU5moYGpd+ZH1WhBHdkWi5WjrfImHg==}
+    peerDependencies:
+      vite: '*'
+
   vite-node@1.6.0:
     resolution: {integrity: sha512-de6HJgzC+TFzOu0NTC4RAIsyf/DY/ibWDYQUcuEA84EMHhcefTUGkjFHKKEJhQN4A+6I0u++kr3l36ZF2d7XRw==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -4574,6 +4585,15 @@ snapshots:
   axe-core@4.10.0: {}
 
   axobject-query@4.1.0: {}
+
+  babel-dead-code-elimination@1.0.6:
+    dependencies:
+      '@babel/core': 7.25.7
+      '@babel/parser': 7.25.7
+      '@babel/traverse': 7.25.7
+      '@babel/types': 7.25.7
+    transitivePeerDependencies:
+      - supports-color
 
   bail@2.0.2: {}
 
@@ -7394,6 +7414,19 @@ snapshots:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
+
+  vite-env-only@3.0.3(vite@5.4.8(@types/node@22.7.4)):
+    dependencies:
+      '@babel/core': 7.25.7
+      '@babel/generator': 7.25.7
+      '@babel/parser': 7.25.7
+      '@babel/traverse': 7.25.7
+      '@babel/types': 7.25.7
+      babel-dead-code-elimination: 1.0.6
+      micromatch: 4.0.8
+      vite: 5.4.8(@types/node@22.7.4)
+    transitivePeerDependencies:
+      - supports-color
 
   vite-node@1.6.0(@types/node@22.7.4):
     dependencies:
