@@ -27,6 +27,7 @@ export default defineConfig({
 				...coverageConfigDefaults.exclude,
 				'app/entry.*.tsx',
 				'app/root.tsx',
+				'app/utils/testing.tsx',
 			],
 		},
 	},
