@@ -40,28 +40,28 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@remix-run/dev':
-        specifier: ^2.12.1
+        specifier: 2.12.1
         version: 2.12.1(@remix-run/react@2.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2))(@types/node@22.7.4)(babel-plugin-macros@3.1.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4))
       '@remix-run/testing':
-        specifier: ^2.12.1
+        specifier: 2.12.1
         version: 2.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2)
       '@testing-library/dom':
-        specifier: ^10.4.0
+        specifier: 10.4.0
         version: 10.4.0
       '@testing-library/jest-dom':
-        specifier: ^6.5.0
+        specifier: 6.5.0
         version: 6.5.0
       '@testing-library/react':
-        specifier: ^16.0.1
+        specifier: 16.0.1
         version: 16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/compression':
-        specifier: ^1.7.5
+        specifier: 1.7.5
         version: 1.7.5
       '@types/express':
-        specifier: ^4.17.20
+        specifier: 4.17.21
         version: 4.17.21
       '@types/morgan':
-        specifier: ^1.9.9
+        specifier: 1.9.9
         version: 1.9.9
       '@types/react':
         specifier: ^18.2.20
@@ -70,73 +70,73 @@ importers:
         specifier: ^18.2.7
         version: 18.3.0
       '@typescript-eslint/eslint-plugin':
-        specifier: ^6.7.4
+        specifier: 6.21.0
         version: 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint@8.57.1)(typescript@5.6.2)
       '@typescript-eslint/parser':
-        specifier: ^6.7.4
+        specifier: 6.21.0
         version: 6.21.0(eslint@8.57.1)(typescript@5.6.2)
       '@vitest/coverage-v8':
-        specifier: ^2.1.2
+        specifier: 2.1.2
         version: 2.1.2(vitest@2.1.2)
       '@vitest/ui':
-        specifier: ^2.1.2
+        specifier: 2.1.2
         version: 2.1.2(vitest@2.1.2)
       autoprefixer:
-        specifier: ^10.4.19
+        specifier: 10.4.20
         version: 10.4.20(postcss@8.4.47)
       eslint:
-        specifier: ^8.38.0
+        specifier: 8.57.1
         version: 8.57.1
       eslint-config-prettier:
-        specifier: ^9.1.0
+        specifier: 9.1.0
         version: 9.1.0(eslint@8.57.1)
       eslint-import-resolver-typescript:
-        specifier: ^3.6.1
+        specifier: 3.6.3
         version: 3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-plugin-import@2.31.0)(eslint@8.57.1)
       eslint-plugin-import:
-        specifier: ^2.28.1
+        specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
       eslint-plugin-jsx-a11y:
-        specifier: ^6.7.1
+        specifier: 6.10.0
         version: 6.10.0(eslint@8.57.1)
       eslint-plugin-react:
-        specifier: ^7.33.2
+        specifier: 7.37.1
         version: 7.37.1(eslint@8.57.1)
       eslint-plugin-react-hooks:
-        specifier: ^4.6.0
+        specifier: 4.6.2
         version: 4.6.2(eslint@8.57.1)
       happy-dom:
-        specifier: ^15.7.4
+        specifier: 15.7.4
         version: 15.7.4
       msw:
-        specifier: ^2.4.9
+        specifier: 2.4.9
         version: 2.4.9(typescript@5.6.2)
       postcss:
-        specifier: ^8.4.38
+        specifier: 8.4.47
         version: 8.4.47
       prettier:
-        specifier: ^3.3.3
+        specifier: 3.3.3
         version: 3.3.3
       remix-development-tools:
-        specifier: ^4.7.1
+        specifier: 4.7.1
         version: 4.7.1(@remix-run/react@2.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2))(@types/react-dom@18.3.0)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.8(@types/node@22.7.4))
       remix-flat-routes:
-        specifier: ^0.6.5
+        specifier: 0.6.5
         version: 0.6.5(@remix-run/dev@2.12.1(@remix-run/react@2.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2))(@types/node@22.7.4)(babel-plugin-macros@3.1.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4)))
       tailwindcss:
         specifier: 3.4.13
         version: 3.4.13
       typescript:
-        specifier: ^5.1.6
+        specifier: 5.6.2
         version: 5.6.2
       vite:
-        specifier: ^5.4.8
+        specifier: 5.4.8
         version: 5.4.8(@types/node@22.7.4)
       vite-env-only:
-        specifier: ^3.0.3
+        specifier: 3.0.3
         version: 3.0.3(vite@5.4.8(@types/node@22.7.4))
       vite-tsconfig-paths:
-        specifier: ^4.3.2
+        specifier: 4.3.2
         version: 4.3.2(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4))
       vitest:
         specifier: 2.1.2
@@ -2410,6 +2410,7 @@ packages:
   eslint@8.57.1:
     resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
