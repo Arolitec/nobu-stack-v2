@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["../app/*"],
+      "@utils/*": ["./utils/*"]
+    },
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true
+  }
+}
