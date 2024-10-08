@@ -43,6 +43,7 @@ export default defineConfig({
 		{
 			name: 'mobile-chrome',
 			use: { ...devices['Pixel 5'] },
+			testMatch: /mobile\.spec\.ts/,
 		},
 
 		// You can add more browsers
